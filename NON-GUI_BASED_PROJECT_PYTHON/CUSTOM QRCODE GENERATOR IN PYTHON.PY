@@ -39,4 +39,5 @@ def code():
     x.save(name)
     exit()
 
+print("---Custom QRCode Generator---")
 code()

@@ -63,5 +63,6 @@ def currency_converter():
         print("---INVALID INPUT---")
         exit()
 
+print("---Currency Converter---")
 currency_converter()
 exit()
