@@ -29,7 +29,7 @@ def play():
         print("-Let's get started-\n")
     else:
         print("--Thanks for playing--")
-        exit_game()
+        exit()
 
 def length_quiz():
     return len(quiz_game)
