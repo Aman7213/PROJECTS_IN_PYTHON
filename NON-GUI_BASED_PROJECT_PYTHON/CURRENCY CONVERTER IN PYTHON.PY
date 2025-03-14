@@ -2,6 +2,8 @@
 
 import sys
 
+print("---Currency Converter---")
+
 def exit():
     input("Press Enter To Exit...")
     sys.exit()
@@ -63,6 +65,5 @@ def currency_converter():
         print("---INVALID INPUT---")
         exit()
 
-print("---Currency Converter---")
 currency_converter()
 exit()
