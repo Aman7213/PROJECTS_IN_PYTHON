@@ -40,25 +40,27 @@ def factorial():
         fact *= i
     return fact
 
-def user_input():
-    uit = input("1) Addition\n2) Subtraction\n3) Multiplication\n4) Division\n5) Average\n6) Factorial\nEnter from the given operation(1/2/3/4/5/6): ")
-    if uit == "1":
-            print(addition())
-    elif uit == "2":
-            print(subtraction())
-    elif uit == "3":
-            print(multiplication())
-    elif uit == "4":
-            print(division())
-    elif uit == "5":
-            print(averagelist())
-    elif uit == "6":
-            print(factorial())
-
 def exit():
     input("Press Enter TO Exit....")
     sys.exit()
 
+def user_input():
+    while True:
+        uit = input("1) Addition\n2) Subtraction\n3) Multiplication\n4) Division\n5) Average\n6) Factorial\n7) Exit\nEnter from the given operation(1/2/3/4/5/6): ")
+        if uit == "1":
+                print(addition())
+        elif uit == "2":
+                print(subtraction())
+        elif uit == "3":
+                print(multiplication())
+        elif uit == "4":
+                print(division())
+        elif uit == "5":
+                print(averagelist())
+        elif uit == "6":
+                print(factorial())
+        elif uit == "7":
+            exit()
+
 print("---Calculator In Python---")
 user_input()
-exit()

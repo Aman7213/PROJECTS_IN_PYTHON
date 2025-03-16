@@ -40,21 +40,19 @@ def remove_task():
             break
 
 def functionality():
-    choice = user_choice()
-    if choice == "1":
-        view_task()
-    elif choice == "2":
-        add_task()
-    elif choice == "3":
-        remove_task()
-    elif choice == "4":
-        exit()
-    else:
-        print("---INVALID INPUT---")
-        exit()
+    while True:
+        choice = user_choice()
+        if choice == "1":
+            view_task()
+        elif choice == "2":
+            add_task()
+        elif choice == "3":
+            remove_task()
+        elif choice == "4":
+            exit()
+
 
 functionality()
-exit()
 
 
     
