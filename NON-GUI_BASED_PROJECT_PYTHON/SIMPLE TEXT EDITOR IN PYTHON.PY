@@ -42,5 +42,7 @@ def main():
             add_data()
         elif z == "4":
             exit()
+        else:
+            print("Choose Between (1/2/3/4)")
 
 main()
