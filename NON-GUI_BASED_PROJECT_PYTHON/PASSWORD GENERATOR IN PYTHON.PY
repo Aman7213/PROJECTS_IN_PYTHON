@@ -27,11 +27,11 @@ while True:
 
         save = input("Do you want to save the file(Y/N): ").upper()
         if save == "Y":
-            with open("pass.txt", "w") as file:
+            i = input("Enter the name of the file: ").lower()
+            with open(f"{i}.txt", "w") as file:
                 file.write(temp)
                 print("File is saved\n")
         else:
             continue
     else:
         exit()
-

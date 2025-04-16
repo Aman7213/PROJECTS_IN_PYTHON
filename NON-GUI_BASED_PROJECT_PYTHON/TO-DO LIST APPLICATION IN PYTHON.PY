@@ -51,8 +51,4 @@ def functionality():
         elif choice == "4":
             exit()
 
-
 functionality()
-
-
-    
